@@ -1,11 +1,8 @@
 # This script is used to extract themes from qualitative data
 # Written by Justin Miller on 5.14.2024
 #
-# Make sure the Python OpenAI library is installed
-# pip install openai
-#
 # Linux script usage
-# python getSurveyThemes.py data.csv sk-XXXXXX > output.txt
+# python getThemes.py data.csv sk-XXXXXX > output.txt
 
 # Load Libraries
 from openai import OpenAI
